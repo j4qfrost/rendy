@@ -28,7 +28,7 @@ no-slow-safety-checks = []
 [dependencies]
 gfx-hal = { git = "https://github.com/amethyst/gfx", branch = "wasm" }
 gfx-backend-empty = { git = "https://github.com/amethyst/gfx", branch = "wasm", optional = true }
-gfx-backend-gl = { git = "https://github.com/amethyst/gfx", branch = "wasm", features = ["glutin"], optional = true }
+gfx-backend-gl = { git = "https://github.com/j4qfrost/gfx", branch = "wasm", features = ["glutin"], optional = true }
 lazy_static = "1.0"
 log = "0.4"
 parking_lot = "0.9"
